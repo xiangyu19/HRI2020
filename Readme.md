@@ -1,15 +1,15 @@
 ## Installation
-###1. Install Cozmo SDK: (official instruction can be found here http://cozmosdk.anki.com/docs/install-macos.html)
+### 1. Install Cozmo SDK: (official instruction can be found here http://cozmosdk.anki.com/docs/install-macos.html)
 ```
 pip3 install --user 'cozmo[camera]'
 ```
-###2. Install Speech Recognition: (instruction: https://forums.anki.com/t/controlling-cozmo-via-voice-commands/1183)
+### 2. Install Speech Recognition: (instruction: https://forums.anki.com/t/controlling-cozmo-via-voice-commands/1183)
 ```
 pip3 install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio
 pip3 install pyaudio
 pip3 install SpeechRecognition
 ```
-###3. Install Face Recognition: (https://github.com/ageitgey/face_recognition)
+### 3. Install Face Recognition: (https://github.com/ageitgey/face_recognition)
 1) install dlib:(https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 ```
 git clone https://github.com/davisking/dlib.git
@@ -23,13 +23,13 @@ python3 setup.py install
 pip3 install face_recognition
 ```
 
-###4. Android Debug Bridge:(http://cozmosdk.anki.com/docs/adb.html)
+### 4. Android Debug Bridge:(http://cozmosdk.anki.com/docs/adb.html)
 ```
 brew tap caskroom/cask
 brew cask install android-platform-tools
 ```
 
-###5. Final Installation: (http://cozmosdk.anki.com/docs/adb.html#final-installation-all-platforms)
+### 5. Final Installation: (http://cozmosdk.anki.com/docs/adb.html#final-installation-all-platforms)
 1)Enable USB Debugging on your phone.
 ***Tap seven (7) times on the Build Number listed under Settings -> About Phone.
 ***Then, under Settings -> Developer Options, enable USB debugging.
